@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?rsgx 1.11 2022-12-19 ?>
+<region id="142" name="USA_TEXAS" xmlns="http://www.gm.ca/hdlm">
+  <road id="1084" name="I-10W">
+    <segment id="691768" numLanes="3" successors="None" predecessors="6443722" class="Motorway; Motorway; Motorway; Motorway; Motorway; Motorway; Motorway">
+      <country code="USA"/>
+      <provenanceRecord author="Ushr" published="2022-12-13T10:16:39.207830Z" method="HD Ground Survey"/>
+    </segment>
+  </road>
+  <road id="5804" name="I-37N">
+    <segment id="691770" numLanes="2" successors="691510" predecessors="408145" class="Motorway">
+      <laneMap>
+        <map laneId="0" toSegmentId="691510" toLaneId="3"/>
+        <map laneId="1" toSegmentId="691510" toLaneId="1"/>
+        <map laneId="2" toSegmentId="691510" toLaneId="2"/>
+        <transitionMap laneId="2" toSegmentId="691510" toLaneId="3"/>
+      </laneMap>
+      <country code="USA"/>
+      <provenanceRecord author="Ushr" published="2022-12-13T10:18:33.835655Z" method="HD Ground Survey"/>
+    </segment>
+  </road>
+  <road id="5692" name="I-10W_US-90W">
+    <segment id="691771" numLanes="2" successors="691614" predecessors="459383" class="Motorway; Motorway; Motorway">
+      <laneMap>
+        <map laneId="0" toSegmentId="691614" toLaneId="3"/>
+        <map laneId="1" toSegmentId="691614" toLaneId="1"/>
+        <map laneId="2" toSegmentId="691614" toLaneId="2"/>
+        <transitionMap laneId="2" toSegmentId="691614" toLaneId="3"/>
+      </laneMap>
+      <country code="USA"/>
+      <provenanceRecord author="Ushr" published="2022-12-13T10:14:47.642323Z" method="HD Ground Survey"/>
+    </segment>
+  </road>
+  <road id="1084" name="I-10W">
+    <segment id="691772" numLanes="2" successors="421472" predecessors="691351" class="Motorway; Motorway; Motorway; Motorway; Motorway; Motorway">
+      <laneMap>
+        <map laneId="0" toSegmentId="421472" toLaneId="3"/>
+        <map laneId="1" toSegmentId="421472" toLaneId="1"/>
+        <map laneId="2" toSegmentId="421472" toLaneId="2"/>
+        <transitionMap laneId="2" toSegmentId="421472" toLaneId="3"/>
+      </laneMap>
+      <country code="USA"/>
+      <provenanceRecord author="Ushr" published="2022-12-13T10:16:37.886130Z" method="HD Ground Survey"/>
+    </segment>
+  </road>
+  <road id="1084" name="I-10W">
+    <segment id="691774" numLanes="2" successors="691336" predecessors="691332" class="Motorway; Motorway; Motorway; Motorway; Motorway">
+      <laneMap>
+        <map laneId="0" toSegmentId="691336" toLaneId="3"/>
+        <map laneId="1" toSegmentId="691336" toLaneId="1"/>
+        <map laneId="2" toSegmentId="691336" toLaneId="2"/>
+        <transitionMap laneId="2" toSegmentId="691336" toLaneId="3"/>
+      </laneMap>
+      <country code="USA"/>
+      <provenanceRecord author="Ushr" published="2022-12-13T10:16:43.031010Z" method="HD Ground Survey"/>
+    </segment>
+  </road>
+  <road id="5815" name="I-37N_US-281N">
+    <segment id="691776" numLanes="2" successors="691558" predecessors="691554" class="Motorway">
+      <laneMap>
+        <map laneId="0" toSegmentId="691558" toLaneId="3"/>
+        <map laneId="1" toSegmentId="691558" toLaneId="1"/>
+        <map laneId="2" toSegmentId="691558" toLaneId="2"/>
+        <transitionMap laneId="2" toSegmentId="691558" toLaneId="3"/>
+      </laneMap>
+      <country code="USA"/>
+      <provenanceRecord author="Ushr" published="2022-12-13T10:17:52.381376Z" method="HD Ground Survey"/>
+    </segment>
+  </road>
+</region>

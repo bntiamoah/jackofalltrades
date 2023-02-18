@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?rsgx 1.11 2022-12-20 ?>
+<region id="128" name="USA_INDIANA" xmlns="http://www.gm.ca/hdlm">
+  <road id="6141" name="S-37S">
+    <segment id="673800" numLanes="2" successors="673707" predecessors="673638" leftNeighbor="None" rightNeighbor="None" class="Motorway; Motorway; Motorway; Motorway; Motorway; Motorway">
+      <laneMap>
+        <map laneId="1" toSegmentId="673707" toLaneId="1"/>
+        <map laneId="2" toSegmentId="673707" toLaneId="2"/>
+      </laneMap>
+      <country code="USA"/>
+      <provenanceRecord author="Ushr" published="2022-12-12T06:11:10.274498Z" method="HD Ground Survey"/>
+    </segment>
+  </road>
+  <road id="8525" name="I-65N">
+    <segment id="673801" numLanes="3" successors="705827" predecessors="673381" leftNeighbor="None" rightNeighbor="None" class="Motorway; Motorway">
+      <laneMap>
+        <map laneId="1" toSegmentId="705827" toLaneId="1"/>
+        <map laneId="2" toSegmentId="705827" toLaneId="2"/>
+        <map laneId="3" toSegmentId="705827" toLaneId="3"/>
+      </laneMap>
+      <country code="USA"/>
+      <provenanceRecord author="Ushr" published="2022-12-12T06:16:04.245475Z" method="HD Ground Survey"/>
+    </segment>
+  </road>
+  <road id="8491" name="US-20W">
+    <segment id="673802" numLanes="2" successors="673430" predecessors="673405" leftNeighbor="None" rightNeighbor="None" class="Motorway; Motorway; Motorway">
+      <laneMap>
+        <map laneId="1" toSegmentId="673430" toLaneId="1"/>
+        <map laneId="2" toSegmentId="673430" toLaneId="2"/>
+      </laneMap>
+      <country code="USA"/>
+      <provenanceRecord author="Ushr" published="2022-12-12T06:09:10.669809Z" method="HD Ground Survey"/>
+    </segment>
+  </road>
+  <road id="1556" name="I-94E">
+    <segment id="673804" numLanes="3" successors="673596" predecessors="673599" leftNeighbor="None" rightNeighbor="None" class="Motorway; Motorway; Motorway; Motorway; Motorway; Motorway; Motorway; Motorway">
+      <laneMap>
+        <map laneId="0" toSegmentId="673596" toLaneId="4"/>
+        <map laneId="1" toSegmentId="673596" toLaneId="1"/>
+        <map laneId="2" toSegmentId="673596" toLaneId="2"/>
+        <map laneId="3" toSegmentId="673596" toLaneId="3"/>
+        <transitionMap laneId="3" toSegmentId="673596" toLaneId="4"/>
+      </laneMap>
+      <country code="USA"/>
+      <provenanceRecord author="Ushr" published="2022-12-12T06:11:11.901988Z" method="HD Ground Survey"/>
+    </segment>
+  </road>
+  <road id="8526" name="I-65S">
+    <segment id="673805" numLanes="3" successors="706048" predecessors="673418" leftNeighbor="None" rightNeighbor="None" class="Motorway; Motorway; Motorway; Motorway; Motorway">
+      <laneMap>
+        <map laneId="1" toSegmentId="706048" toLaneId="1"/>
+        <map laneId="2" toSegmentId="706048" toLaneId="2"/>
+        <map laneId="3" toSegmentId="706048" toLaneId="3"/>
+      </laneMap>
+      <country code="USA"/>
+      <provenanceRecord author="Ushr" published="2022-12-12T06:15:54.746289Z" method="HD Ground Survey"/>
+    </segment>
+  </road>
+  <road id="6128" name="S-37N">
+    <segment id="673806" numLanes="3" successors="673617" predecessors="673613" leftNeighbor="None" rightNeighbor="None" class="Motorway; Motorway; Motorway; Motorway; Motorway; Motorway; Motorway">
+      <laneMap>
+        <map laneId="1" toSegmentId="673617" toLaneId="1"/>
+        <map laneId="2" toSegmentId="673617" toLaneId="2"/>
+        <map laneId="3" toSegmentId="673617" toLaneId="3"/>
+      </laneMap>
+      <country code="USA"/>
+      <provenanceRecord author="Ushr" published="2022-12-12T06:16:22.202872Z" method="HD Ground Survey"/>
+    </segment>
+  </road>
+</region>

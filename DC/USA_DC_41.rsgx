@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?rsgx 1.11 2022-12-19 ?>
+<region id="105" name="USA_DC" xmlns="http://www.gm.ca/hdlm">
+  <road id="4514" name="I-295N">
+    <segment id="83192" numLanes="5" successors="78948" predecessors="79569 699728" class="Motorway; Motorway Link; Motorway Link; Motorway">
+      <laneMap>
+        <map laneId="1" toSegmentId="78948" toLaneId="1"/>
+        <map laneId="2" toSegmentId="78948" toLaneId="2"/>
+        <map laneId="3" toSegmentId="78948" toLaneId="3"/>
+        <map laneId="4" toSegmentId="78948" toLaneId="4"/>
+        <map laneId="5" toSegmentId="78948" toLaneId="5"/>
+      </laneMap>
+      <country code="USA"/>
+      <provenanceRecord author="Ushr" published="2022-12-12T22:47:43.404567Z" method="HD Ground Survey"/>
+    </segment>
+  </road>
+  <road id="51" name="US-50E">
+    <segment id="85198" numLanes="3" successors="85179" predecessors="78611" class="Motorway; Motorway; Motorway">
+      <laneMap>
+        <map laneId="0" toSegmentId="85179" toLaneId="2"/>
+        <map laneId="1" toSegmentId="85179" toLaneId="1"/>
+        <map laneId="2" toSegmentId="85179" toLaneId="3"/>
+        <map laneId="3" toSegmentId="85179" toLaneId="4"/>
+        <transitionMap laneId="2" toSegmentId="85179" toLaneId="2"/>
+      </laneMap>
+      <country code="USA"/>
+      <provenanceRecord author="Ushr" published="2022-12-12T22:47:28.757962Z" method="HD Ground Survey"/>
+    </segment>
+  </road>
+  <road id="3358" name="US-1S">
+    <segment id="626000" numLanes="3" successors="78750" predecessors="6937259" class="Motorway; Trunk">
+      <laneMap>
+        <map laneId="1" toSegmentId="78750" toLaneId="1"/>
+        <map laneId="2" toSegmentId="78750" toLaneId="2"/>
+        <map laneId="3" toSegmentId="78750" toLaneId="3"/>
+      </laneMap>
+      <country code="USA"/>
+      <provenanceRecord author="Ushr" published="2022-12-12T22:47:27.066153Z" method="HD Ground Survey"/>
+    </segment>
+  </road>
+  <road id="6730" name="S-295S">
+    <segment id="626002" numLanes="2" successors="7262419" predecessors="78762" class="Motorway; Motorway; Motorway">
+      <laneMap>
+        <map laneId="1" toSegmentId="7262419" toLaneId="3"/>
+        <map laneId="2" toSegmentId="7262419" toLaneId="4"/>
+      </laneMap>
+      <country code="USA"/>
+      <provenanceRecord author="Ushr" published="2022-12-12T22:47:41.790740Z" method="HD Ground Survey"/>
+    </segment>
+  </road>
+  <road id="6687" name="South Capitol Street South">
+    <segment id="626004" numLanes="3" successors="78840" predecessors="78927" class="Trunk; Primary; Primary">
+      <laneMap>
+        <map laneId="1" toSegmentId="78840" toLaneId="1"/>
+        <map laneId="2" toSegmentId="78840" toLaneId="2"/>
+        <map laneId="3" toSegmentId="0" toLaneId="0"/>
+      </laneMap>
+      <country code="USA"/>
+      <provenanceRecord author="Ushr" published="2022-12-12T22:47:15.985398Z" method="HD Ground Survey"/>
+    </segment>
+  </road>
+  <road id="6682" name="Washington Boulevard North">
+    <segment id="631827" numLanes="2" successors="631828" predecessors="78621" class="Motorway Link">
+      <laneMap>
+        <map laneId="1" toSegmentId="631828" toLaneId="1"/>
+        <map laneId="2" toSegmentId="631828" toLaneId="2"/>
+      </laneMap>
+      <country code="USA"/>
+      <provenanceRecord author="Ushr" published="2022-12-12T22:47:25.066093Z" method="HD Ground Survey"/>
+    </segment>
+  </road>
+</region>

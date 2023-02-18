@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?fasx 1.11 2022-12-19 ?>
+<gmfa xmlns="http://www.gm.ca/hdlm">
+  <segment id="673800">
+    <gmfaSection lanes="All" type="Map Valid" startXsectionId="0" endXsectionId="4053"/>
+  </segment>
+  <segment id="673801">
+    <gmfaSection lanes="All" type="Map Valid" startXsectionId="0" endXsectionId="5078"/>
+  </segment>
+  <segment id="673802">
+    <gmfaSection lanes="All" type="Active Construction" startXsectionId="0" endXsectionId="5020"/>
+  </segment>
+  <segment id="673804">
+    <gmfaSection lanes="All" type="Map Valid" startXsectionId="0" endXsectionId="4326"/>
+  </segment>
+  <segment id="673805">
+    <gmfaSection lanes="All" type="Map Valid" startXsectionId="0" endXsectionId="5285"/>
+  </segment>
+  <segment id="673806">
+    <gmfaSection lanes="All" type="Map Valid" startXsectionId="0" endXsectionId="4971"/>
+  </segment>
+</gmfa>
