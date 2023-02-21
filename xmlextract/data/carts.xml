@@ -1,0 +1,11 @@
+<root>
+    <cart user="Alice">
+        <product price="7.35">9781846975769</product>
+        <product price="2.12">9780008322052</product>
+    </cart>
+    <cart user="Bob">
+        <product price="4.99">9780008117498</product>
+        <product price="8.14">9780340960196</product>
+        <product price="7.37">9780099580485</product>
+    </cart>
+</root>

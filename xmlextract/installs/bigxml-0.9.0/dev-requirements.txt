@@ -1,0 +1,24 @@
+# install + dependencies
+-e .
+
+# typing
+mypy
+
+# tests
+coverage
+pytest
+pytest-cov
+
+# lint
+pylint
+
+# format
+black
+isort
+
+# publish
+setuptools_scm
+wheel
+
+# docs
+mkdocs

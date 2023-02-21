@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: bigxml
+Version: 0.9.0
+Summary: Pythonic xml parser to handle big files or streams
+Home-page: https://github.com/rogdham/bigxml
+Author: Rogdham
+Author-email: contact@rogdham.net
+License: MIT
+Project-URL: Documentation, https://bigxml.rogdham.net/
+Project-URL: Source, https://github.com/rogdham/bigxml
+Keywords: xml parser big stream
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Utilities
+Classifier: Topic :: Text Processing :: Markup :: XML
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+<div align="center" size="15px">
+
+# BigXML
+
+Parse big xml files and streams with ease
+
+[![GitHub build status](https://img.shields.io/github/workflow/status/rogdham/bigxml/build/master)](https://github.com/rogdham/bigxml/actions?query=branch:master)
+[![Release on PyPI](https://img.shields.io/pypi/v/bigxml)](https://pypi.org/project/bigxml/)
+[![Code coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)](https://github.com/rogdham/bigxml/search?q=fail+under&type=Code)
+[![Mypy type checker](https://img.shields.io/badge/type_checker-mypy-informational)](https://mypy.readthedocs.io/)
+[![MIT License](https://img.shields.io/pypi/l/bigxml)](https://github.com/Rogdham/bigxml/blob/master/LICENSE.txt)
+
+---
+
+[:book: Documentation](https://bigxml.rogdham.net/)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[:page_with_curl: Changelog](./CHANGELOG.md)
+
+</div>
+
+---
+
+Parsing big XML files in Python is hard. On one hand, regular XML libraries load the
+whole file into memory, which will crash the process if the file is too big. Other
+solutions such as `iterparse` do read the file as they parse it, but they are complex to
+use if you don't want to run out of memory.
+
+This is where the _BigXML_ library shines:
+
+- Works with XML files of any size
+- No need to do memory management yourself
+- Pythonic API
+- Any stream can easily be parsed, not just files
+- Secure from usual attacks against XML parsers
